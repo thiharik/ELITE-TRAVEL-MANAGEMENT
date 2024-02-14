@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+    <body>
+      <table>
+        <tr>
+            <td
+                  colspan="3"
+                  id="travel_"
+            >
+              <h2>
+                ELITE TRAVEL MANAGEMENT
+              </h2>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a id="travel_info" 
+                   href="Travel_Info"
+                >
+                  Travel info
+                </a>
+            </td>
+            <td>
+                <a id="personal_info" 
+                   href="Personal_Info"
+                >
+                  Personal info
+                </a>
+            </td>
+            <td>
+                <a id="preferences_info" 
+                   href="Preferences_Info"
+                >
+                   Activities preference
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <th 
+                   id="travel" 
+                   colspan="3"
+            >
+                  Travel Information
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <label 
+                   for="destination"
+                > 
+                  Select your travel destination:
+                </label>
+              <br />
+              <select 
+                   id="destination" 
+                   name="destination"
+                   value="destination"
+                   placeholder="select"
+                   required
+              >
+                 <option 
+                   value="select"
+
+                 >
+                   select
+                </option>
+                <option 
+                   value="valvo"
+                >
+                  volovo
+                </option>
+                <option 
+                   value="bmw"
+                >
+                  bmw
+                </option>
+                <option 
+                  value="audi"
+                >
+                  audi
+                </option>
+              </select>
+          </td>
+          <td>
+                <label 
+                    for="date_of_departure"
+                  >
+                  Date of departure:
+                </label>
+              <br />
+                  <input 
+                    
+                    id="date_of_departure" 
+                    type="date"
+                    required 
+                  />
+                </td>
+              <td>
+                <label 
+                    for="date_of_arrival"
+                >
+                  Date of arrival:
+                </label>
+              <br />
+                <input 
+                   id="date_of_arrival"
+                   type="date"
+                   required 
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input 
+                    id="Kids"
+                    type="text" 
+                    placeholder="No of Kids" 
+                    required
+                />
+              </td>
+              <td>
+                <input 
+                    id="teens" 
+                    type="text" 
+                    placeholder="No of teens" 
+                    required
+                />
+              </td>
+              <td>
+                <input 
+                     id="adults"
+                    type="text" 
+                    placeholder="No of adults" 
+                    required
+                />
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    Visa Assistance
+                </td>
+                <td>
+                    <input 
+                        type="radio" 
+                        id="Yes"
+                    />
+                    Yes
+                </td>
+                <td>
+                    <input 
+                      type="radio" 
+                      id="No"
+                    />
+                      No
+                </td>
+            </tr>
+            <tr>
+                <th 
+                    colspan="3"
+                    id="personal_info"
+                >
+                  Personal Information
+                </th>
+            </tr>
+            <tr>
+              <td>
+                <label
+                  for="cname"
+                >
+                  Customer Name:
+                </label>
+              <td 
+                  colspan="2"
+                
+              >
+                <input
+                  id="cname"
+                  type="text"
+                  placeholder="Enter the customer name"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label 
+                  for="phno"
+                >
+                  Phone Number:
+                </label>
+              </td>
+              <td 
+                  colspan="2"
+              >
+                <input
+                  id="phno"
+                  type="tel"
+                  pattern="9"
+                  placeholder="Enter the phone number"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <label
+                for="email"
+              >
+                <td>
+                  Email Id:
+                </td>
+              </label>
+              <td 
+                  colspan="2"
+              >
+                <input
+                  id="email"
+                  type="text"
+                  placeholder="Enter the email id"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+                <th 
+                  colspan="3"
+                  id="charges"
+                >
+                  Activities Preferences
+               </th>
+            </tr>
+            <tr>
+               <td>
+                <input 
+                  type="checkbox" 
+                  id="Museums_and_HistoricSites"
+                />
+                  Museums & Historic Sites
+              </td>
+              <td>
+                <input 
+                  type="checkbox" 
+                  id="Culture"
+                />
+                  Culture
+              </td>
+              <td>
+                <input 
+                   type="checkbox" 
+                   id="Beaches"
+                />
+                Beaches
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input 
+                  type="checkbox" 
+                  id="Shopping"
+                />
+                Shopping
+              </td>
+              <td>
+                <input 
+                  type="checkbox"
+                  id="Wildlife" 
+                />
+                Wildlife
+              </td>
+              <td>
+                <input 
+                  type="checkbox" 
+                  id="Relaxing"
+                />
+                Relaxing
+              </td>
+            </tr>
+            <tr>
+              <td 
+                 colspan="3"
+              >
+                <a 
+                  href=""
+                >
+                  **Click here to unlock exclusive offers
+                </a>
+              </td>
+            </tr>
+          
+          <br />
+          <tr>
+            <td
+               colspan="3"
+            >
+              <input 
+                  type="submit"
+                  id="submit"
+                  value="Build package"
+              />
+            </td>
+          </tr>
+        </table>
+      
+    
+  </body>
+</html>
